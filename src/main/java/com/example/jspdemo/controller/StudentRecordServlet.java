@@ -26,7 +26,7 @@ public class StudentRecordServlet extends HttpServlet {
                     .ifPresent(s -> request.setAttribute("student", s));
         }
 
-        request.getRequestDispatcher("/jsp/student-record.jsp")
+        request.getRequestDispatcher("/jsp/studentRecord.jsp")
                 .forward(request, response);
     }
 }
