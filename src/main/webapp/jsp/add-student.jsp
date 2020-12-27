@@ -4,7 +4,7 @@
 <html>
     <head>
         <title>Add new student</title>
-        <%@include file="header.jsp"%>
+        <%@include file="../WEB-INF/jspf/header.jsp"%>
     </head>
     <body>
         <div class="container">

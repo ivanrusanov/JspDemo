@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>JSP - Hello World</title>
-        <%@ include file="jsp/header.jsp"%>
+        <%@ include file="WEB-INF/jspf/header.jsp"%>
     </head>
     <body>
         <div class="container">
